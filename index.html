@@ -10,8 +10,8 @@
 				font-family: 'Open Sans', sans-serif;
 			}
 		</style>
-		<link rel="stylesheet" href="styling/css.css">
-		<link rel="shortcut icon" type="image/png" href="assets/flavicon.png"/>
+		<link rel="stylesheet" href="css/styling/css.css">
+		<link rel="shortcut icon" type="image/png" href="src/assets/flavicon.png"/>
 	</head>
 
 	<body>
@@ -19,16 +19,16 @@
 		<div id="main">
 			<div id="greetingContainer">
 				<div id="greeting">Hello World</div>
-				<div id="name">My name is <img id="speaker" src="assets/speakerLight.svg" onclick="play()"/> Sourav Gope</div>
+				<div id="name">My name is <img id="speaker" src="src/assets/speakerLight.svg" onclick="play()"/> Sourav Gope</div>
 				<ul id="mainIcons">
-					<li><a href="https://github.com/TheGlitchh" target="_blank"><img src="assets/githubLogoLight.svg"/></a></li>
-					<li><a href="https://www.youtube.com/channel/UCHTNk_nmz4EDd78A7JPcmBw" target="_blank"><img src="assets/youTubeLogoLight.svg"/></a></li>
-					<li><a href="https://www.linkedin.com/in/theglitchh" target="_blank"><img src="assets/linkedinLogoLight.svg"/></a></li>
-					<li><a href="mailto:souravgope765@gmail.com" target="_top"><img src="assets/emailLight.svg"/></a></li>
+					<li><a href="https://github.com/TheGlitchh" target="_blank"><img src="src/assets/githubLogoLight.svg"/></a></li>
+					<li><a href="https://www.youtube.com/channel/UCHTNk_nmz4EDd78A7JPcmBw" target="_blank"><img src="src/assets/youTubeLogoLight.svg"/></a></li>
+					<li><a href="https://www.linkedin.com/in/theglitchh" target="_blank"><img src="src/assets/linkedinLogoLight.svg"/></a></li>
+					<li><a href="mailto:souravgope765@gmail.com" target="_top"><img src="src/assets/emailLight.svg"/></a></li>
 				</ul>
 			</div>
 			<figure id="selfContainer">
-				<img id="self" src="assets/TheGlitchh.png"/>
+				<img id="self" src="src/assets/TheGlitchh.png"/>
 				<figcaption> <b> affectionately trying to create a better world </b> !!</figcaption>
 			</figure>
 			<div id="introduction">
@@ -44,11 +44,11 @@
 			</div>
 			<h2 id="copyright">Copyright &copy; TheGlitchh
 		</div>
-		<audio id="sourav" src="assets/sourav.mp3"></audio>
+		<audio id="sourav" src="src/assets/sourav.mp3"></audio>
 		<!-- scripts -->
-		<script src="particles.js"></script>
-		<script src="app.js"></script>
-		<script src="main.js"></script>
+		<script src="js/particles.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/main.js"></script>
 		<script>
 			window.onload = () => {
 				document.getElementById('copyright').innerText += ` ${new Date().getFullYear()}`;
